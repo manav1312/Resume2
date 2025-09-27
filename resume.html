@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pro CV Template</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 0 10px black;
+    }
+    .sidebar {
+      width: 30%;
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 20px;
+    }
+    .main {
+      width: 70%;
+      padding: 20px;
+    }
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 20px;
+    }
+    h2, h3 {
+      margin-top: 0;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .label {
+      font-weight: bold;
+      margin-bottom: 5px;
+      display: block;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" >
+    <div class="sidebar">
+      <img src="MANAV.jpg" alt="Profile Picture" class="profile-pic">
+      <h2>Manav Patel</h2>
+      <p><strong>Email:</strong> mrmanavrpatel@gmail.com</p>
+      <p><strong>Phone:</strong> +91-9909346106</p>
+      <p><strong>Address:</strong> Vadodara, Gujarat, India</p>
+
+      <div class="section">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>MS Word</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Languages</h3>
+        <ul>
+          <li>English</li>
+          <li>Hindi</li>
+          <li>Gujarati</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Exploring</li>
+          <li>Traveling</li>
+          <li>Photography</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+<section id="work-experience">
+  <h2>Work Experience</h2>
+  <div class="job">
+    <h3>Web Developer</h3>
+    <span>2018 - 2020</span>
+    <p>Developed and maintained websites using HTML, CSS, and JavaScript. Collaborated with designers and backend developers to deliver responsive web applications.</p>
+  </div>
+  <div class="job">
+    <h3>Front-End Developer</h3>
+    <span>2016 - 2018</span>
+    <p>Focused on UI/UX improvements and implemented interactive features using React and jQuery. Optimized performance and accessibility across platforms.</p>
+  </div>
+  <div class="job">
+    <h3>Junior Developer</h3>
+    <span>2014 - 2016</span>
+    <p>Assisted in coding and debugging web projects. Gained experience in version control and agile development practices.</p>
+  </div>
+</section>
+
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="degree">
+    <h3>Bachelor in Computer Engineering</h3>
+    <span>Parul University </span>
+  </div>
+  <div class="degree">
+    <h3>B.Tech in AI & DS</h3>
+    <span>Parul Institute of Engineering and Technology</span>
+  </div>
+</section>
+
+<section id="additional-info">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML/CSS</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>Git</li>
+  </ul>
+</section>
+    </div>
+  </div>
+</body>
+</html>
